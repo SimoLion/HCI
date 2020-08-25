@@ -84,6 +84,8 @@ namespace E_coffeeshop
             else
             {
                 button2.Visible = false;
+                button11.Visible = false;
+                label11.Visible = false;
             }
         }
 
