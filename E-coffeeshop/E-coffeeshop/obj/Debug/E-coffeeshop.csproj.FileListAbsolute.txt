@@ -1,0 +1,35 @@
+C:\Users\SZ\Desktop\Αλληλεπίδραση Ανθρώπου – Υπολογιστή\ergasia\ergasia\E-coffeeshop\E-coffeeshop\bin\Debug\E-coffeeshop.exe.config
+C:\Users\SZ\Desktop\Αλληλεπίδραση Ανθρώπου – Υπολογιστή\ergasia\ergasia\E-coffeeshop\E-coffeeshop\bin\Debug\E-coffeeshop.exe
+C:\Users\SZ\Desktop\Αλληλεπίδραση Ανθρώπου – Υπολογιστή\ergasia\ergasia\E-coffeeshop\E-coffeeshop\bin\Debug\E-coffeeshop.pdb
+C:\Users\SZ\Desktop\Αλληλεπίδραση Ανθρώπου – Υπολογιστή\ergasia\ergasia\E-coffeeshop\E-coffeeshop\obj\Debug\E_coffeeshop.Home.resources
+C:\Users\SZ\Desktop\Αλληλεπίδραση Ανθρώπου – Υπολογιστή\ergasia\ergasia\E-coffeeshop\E-coffeeshop\obj\Debug\E_coffeeshop.Login.resources
+C:\Users\SZ\Desktop\Αλληλεπίδραση Ανθρώπου – Υπολογιστή\ergasia\ergasia\E-coffeeshop\E-coffeeshop\obj\Debug\E_coffeeshop.Properties.Resources.resources
+C:\Users\SZ\Desktop\Αλληλεπίδραση Ανθρώπου – Υπολογιστή\ergasia\ergasia\E-coffeeshop\E-coffeeshop\obj\Debug\E-coffeeshop.csproj.GenerateResource.cache
+C:\Users\SZ\Desktop\Αλληλεπίδραση Ανθρώπου – Υπολογιστή\ergasia\ergasia\E-coffeeshop\E-coffeeshop\obj\Debug\E-coffeeshop.csproj.CoreCompileInputs.cache
+C:\Users\SZ\Desktop\Αλληλεπίδραση Ανθρώπου – Υπολογιστή\ergasia\ergasia\E-coffeeshop\E-coffeeshop\obj\Debug\E-coffeeshop.exe
+C:\Users\SZ\Desktop\Αλληλεπίδραση Ανθρώπου – Υπολογιστή\ergasia\ergasia\E-coffeeshop\E-coffeeshop\obj\Debug\E-coffeeshop.pdb
+C:\Users\SZ\Desktop\Αλληλεπίδραση Ανθρώπου – Υπολογιστή\ergasia\ergasia\E-coffeeshop\E-coffeeshop\obj\Debug\E-coffeeshop.csprojAssemblyReference.cache
+C:\Users\SZ\Desktop\E-coffeeshop\E-coffeeshop\bin\Debug\E-coffeeshop.exe.config
+C:\Users\SZ\Desktop\E-coffeeshop\E-coffeeshop\bin\Debug\E-coffeeshop.exe
+C:\Users\SZ\Desktop\E-coffeeshop\E-coffeeshop\bin\Debug\E-coffeeshop.pdb
+C:\Users\SZ\Desktop\E-coffeeshop\E-coffeeshop\obj\Debug\E-coffeeshop.csprojAssemblyReference.cache
+C:\Users\SZ\Desktop\E-coffeeshop\E-coffeeshop\obj\Debug\E_coffeeshop.Home.resources
+C:\Users\SZ\Desktop\E-coffeeshop\E-coffeeshop\obj\Debug\E_coffeeshop.Login.resources
+C:\Users\SZ\Desktop\E-coffeeshop\E-coffeeshop\obj\Debug\E_coffeeshop.Properties.Resources.resources
+C:\Users\SZ\Desktop\E-coffeeshop\E-coffeeshop\obj\Debug\E-coffeeshop.csproj.GenerateResource.cache
+C:\Users\SZ\Desktop\E-coffeeshop\E-coffeeshop\obj\Debug\E-coffeeshop.csproj.CoreCompileInputs.cache
+C:\Users\SZ\Desktop\E-coffeeshop\E-coffeeshop\obj\Debug\E-coffeeshop.exe
+C:\Users\SZ\Desktop\E-coffeeshop\E-coffeeshop\obj\Debug\E-coffeeshop.pdb
+C:\Users\SZ\Desktop\E-coffeeshop\E-coffeeshop\obj\Debug\E_coffeeshop.Form1.resources
+C:\Users\SZ\Desktop\ergasia\E-coffeeshop\E-coffeeshop\bin\Debug\E-coffeeshop.exe.config
+C:\Users\SZ\Desktop\ergasia\E-coffeeshop\E-coffeeshop\bin\Debug\E-coffeeshop.exe
+C:\Users\SZ\Desktop\ergasia\E-coffeeshop\E-coffeeshop\bin\Debug\E-coffeeshop.pdb
+C:\Users\SZ\Desktop\ergasia\E-coffeeshop\E-coffeeshop\obj\Debug\E-coffeeshop.csprojAssemblyReference.cache
+C:\Users\SZ\Desktop\ergasia\E-coffeeshop\E-coffeeshop\obj\Debug\E_coffeeshop.Form1.resources
+C:\Users\SZ\Desktop\ergasia\E-coffeeshop\E-coffeeshop\obj\Debug\E_coffeeshop.Home.resources
+C:\Users\SZ\Desktop\ergasia\E-coffeeshop\E-coffeeshop\obj\Debug\E_coffeeshop.Login.resources
+C:\Users\SZ\Desktop\ergasia\E-coffeeshop\E-coffeeshop\obj\Debug\E_coffeeshop.Properties.Resources.resources
+C:\Users\SZ\Desktop\ergasia\E-coffeeshop\E-coffeeshop\obj\Debug\E-coffeeshop.csproj.GenerateResource.cache
+C:\Users\SZ\Desktop\ergasia\E-coffeeshop\E-coffeeshop\obj\Debug\E-coffeeshop.csproj.CoreCompileInputs.cache
+C:\Users\SZ\Desktop\ergasia\E-coffeeshop\E-coffeeshop\obj\Debug\E-coffeeshop.exe
+C:\Users\SZ\Desktop\ergasia\E-coffeeshop\E-coffeeshop\obj\Debug\E-coffeeshop.pdb

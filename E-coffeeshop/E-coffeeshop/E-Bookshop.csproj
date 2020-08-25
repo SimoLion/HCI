@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E65A7499-63CF-4B6E-BB7D-F5EB6BF5ABD4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>E_coffeeshop</RootNamespace>
+    <AssemblyName>E-coffeeshop</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Basket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basket.Designer.cs">
+      <DependentUpon>Basket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book.cs" />
+    <Compile Include="Bookbindink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bookbindink.Designer.cs">
+      <DependentUpon>Bookbindink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cafe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cafe.Designer.cs">
+      <DependentUpon>Cafe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Card.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Card.Designer.cs">
+      <DependentUpon>Card.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlRoom.Designer.cs">
+      <DependentUpon>ControlRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database1DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database1DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Print.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Print.Designer.cs">
+      <DependentUpon>Print.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scan.Designer.cs">
+      <DependentUpon>Scan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Basket.resx">
+      <DependentUpon>Basket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bookbindink.resx">
+      <DependentUpon>Bookbindink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cafe.resx">
+      <DependentUpon>Cafe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Card.resx">
+      <DependentUpon>Card.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlRoom.resx">
+      <DependentUpon>ControlRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Print.resx">
+      <DependentUpon>Print.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Scan.resx">
+      <DependentUpon>Scan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Database1DataSet.xsc">
+      <DependentUpon>Database1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Database1DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database1DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database1DataSet.xss">
+      <DependentUpon>Database1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DatabaseDataSet.xsc">
+      <DependentUpon>DatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DatabaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DatabaseDataSet.xss">
+      <DependentUpon>DatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\Home.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\main.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Coffee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\home.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\magnifying-glass-computer-icons-loupe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\cafe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\lamp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Untitled.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\card.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\printer-printing-press-printer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\scanner.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\q.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\depositphotos_55474189-stock-photo-question-mark-character-with-hello.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\image5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\manual.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\lock.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sch.jpg" />
+    <None Include="bin\Debug\plus.jpg" />
+    <None Include="bin\Debug\tolstoy.jpg" />
+    <None Include="bin\Debug\dostoevskiy.jpg" />
+    <None Include="bin\Debug\bookshop.jpg" />
+    <None Include="bin\Debug\images.jpg" />
+    <None Include="bin\Debug\printer.gif" />
+    <None Include="bin\Debug\upload.jpg" />
+    <None Include="bin\Debug\arrow.jpg" />
+    <Content Include="Database.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
