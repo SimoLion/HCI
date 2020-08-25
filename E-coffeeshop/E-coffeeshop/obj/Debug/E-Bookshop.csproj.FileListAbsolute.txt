@@ -107,3 +107,9 @@ C:\Users\SZ\Desktop\ergasia\GitHub\HCI\E-coffeeshop\E-coffeeshop\obj\Debug\E-Boo
 C:\Users\SZ\Desktop\ergasia\GitHub\HCI\E-coffeeshop\E-coffeeshop\obj\Debug\E-Bookshop.csproj.CoreCompileInputs.cache
 C:\Users\SZ\Desktop\ergasia\GitHub\HCI\E-coffeeshop\E-coffeeshop\obj\Debug\E-coffeeshop.exe
 C:\Users\SZ\Desktop\ergasia\GitHub\HCI\E-coffeeshop\E-coffeeshop\obj\Debug\E-coffeeshop.pdb
+C:\Users\SZ\Desktop\ergasia\GitHub\HCI\E-coffeeshop\E-coffeeshop\bin\Debug\Spire.License.dll
+C:\Users\SZ\Desktop\ergasia\GitHub\HCI\E-coffeeshop\E-coffeeshop\bin\Debug\Spire.Pdf.dll
+C:\Users\SZ\Desktop\ergasia\GitHub\HCI\E-coffeeshop\E-coffeeshop\bin\Debug\Microsoft.mshtml.dll
+C:\Users\SZ\Desktop\ergasia\GitHub\HCI\E-coffeeshop\E-coffeeshop\bin\Debug\Spire.License.xml
+C:\Users\SZ\Desktop\ergasia\GitHub\HCI\E-coffeeshop\E-coffeeshop\bin\Debug\Spire.Pdf.xml
+C:\Users\SZ\Desktop\ergasia\GitHub\HCI\E-coffeeshop\E-coffeeshop\obj\Debug\E-Bookshop.csproj.CopyComplete

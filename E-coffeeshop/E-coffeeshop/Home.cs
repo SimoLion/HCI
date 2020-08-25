@@ -91,7 +91,7 @@ namespace E_coffeeshop
 
         private void button12_Click(object sender, EventArgs e)
         {
-            Search sr = new Search();
+            Search sr = new Search(id);
 
             this.Visible = false;
 
@@ -100,7 +100,7 @@ namespace E_coffeeshop
 
         private void label2_Click(object sender, EventArgs e)
         {
-            Search sr = new Search();
+            Search sr = new Search(id);
 
             this.Visible = false;
 

@@ -14,13 +14,14 @@ namespace E_coffeeshop
 {
     public partial class Search : Form
     {
-
+        private int id;
         String connectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=Database.mdb";
         OleDbConnection connection;
 
-        public Search()
+        public Search(int userid)
         {
             InitializeComponent();
+            this.id = userid;
         }
 
         private void Search_Load(object sender, EventArgs e)
@@ -110,6 +111,13 @@ namespace E_coffeeshop
                 e.Graphics.DrawImage(Properties.Resources.plus, new Rectangle(x, y, w, h));
                 e.Handled = true;
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Home hm = new Home(id);
+            this.Visible = false;
+            hm.Show();
         }
     }
 }
