@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.button1 = new System.Windows.Forms.Button();
             this.WelcomeLabel = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
@@ -36,8 +37,15 @@
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip3 = new System.Windows.Forms.ToolTip(this.components);
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.toolTip4 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip5 = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -53,10 +61,13 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(63, 55);
             this.button1.TabIndex = 73;
+            this.toolTip1.SetToolTip(this.button1, "Go back to home page");
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // WelcomeLabel
             // 
+            this.WelcomeLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.WelcomeLabel.Font = new System.Drawing.Font("Microsoft Himalaya", 45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.WelcomeLabel.Location = new System.Drawing.Point(12, 9);
             this.WelcomeLabel.Name = "WelcomeLabel";
@@ -72,8 +83,9 @@
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Location = new System.Drawing.Point(782, 73);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 63);
+            this.button2.Size = new System.Drawing.Size(100, 88);
             this.button2.TabIndex = 71;
+            this.toolTip2.SetToolTip(this.button2, "Did you have read the manual?");
             this.button2.UseVisualStyleBackColor = false;
             // 
             // button3
@@ -83,8 +95,9 @@
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Location = new System.Drawing.Point(888, 73);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 65);
+            this.button3.Size = new System.Drawing.Size(100, 88);
             this.button3.TabIndex = 70;
+            this.toolTip3.SetToolTip(this.button3, "Do you have any queshtion?");
             this.button3.UseVisualStyleBackColor = false;
             // 
             // button4
@@ -100,7 +113,9 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(211, 98);
             this.button4.TabIndex = 78;
+            this.toolTip5.SetToolTip(this.button4, "Send to printer");
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label2
             // 
@@ -123,13 +138,24 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::E_coffeeshop.Properties.Resources.upload;
             this.pictureBox1.Location = new System.Drawing.Point(153, 187);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(211, 214);
             this.pictureBox1.TabIndex = 81;
             this.pictureBox1.TabStop = false;
+            this.toolTip4.SetToolTip(this.pictureBox1, "Upload your document");
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::E_coffeeshop.Properties.Resources.printerStop1;
+            this.pictureBox3.Location = new System.Drawing.Point(557, 238);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(431, 359);
+            this.pictureBox3.TabIndex = 82;
+            this.pictureBox3.TabStop = false;
             // 
             // Print
             // 
@@ -137,6 +163,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::E_coffeeshop.Properties.Resources.home;
             this.ClientSize = new System.Drawing.Size(1000, 699);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button4);
@@ -150,6 +177,7 @@
             this.Text = "Print";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -164,5 +192,11 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.ToolTip toolTip2;
+        private System.Windows.Forms.ToolTip toolTip3;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.ToolTip toolTip5;
+        private System.Windows.Forms.ToolTip toolTip4;
     }
 }

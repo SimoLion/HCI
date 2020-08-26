@@ -163,6 +163,16 @@ namespace E_coffeeshop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap homeBlack {
+            get {
+                object obj = ResourceManager.GetObject("homeBlack", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap image {
             get {
                 object obj = ResourceManager.GetObject("image", resourceCulture);
@@ -206,6 +216,26 @@ namespace E_coffeeshop.Properties {
         internal static System.Drawing.Bitmap lamp {
             get {
                 object obj = ResourceManager.GetObject("lamp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lamp2 {
+            get {
+                object obj = ResourceManager.GetObject("lamp2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lamp21 {
+            get {
+                object obj = ResourceManager.GetObject("lamp21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -266,6 +296,26 @@ namespace E_coffeeshop.Properties {
         internal static System.Drawing.Bitmap printer_printing_press_printer {
             get {
                 object obj = ResourceManager.GetObject("printer-printing-press-printer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap printerStop_ {
+            get {
+                object obj = ResourceManager.GetObject("printerStop.", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap printerStop1 {
+            get {
+                object obj = ResourceManager.GetObject("printerStop1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

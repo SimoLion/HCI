@@ -14,9 +14,13 @@ namespace E_coffeeshop
 {
     public partial class Print : Form
     {
-        public Print()
+        private int id;
+
+        public Print(int userid)
         {
             InitializeComponent();
+            this.id = userid;
+            pictureBox2.Visible = false;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -39,6 +43,21 @@ namespace E_coffeeshop
                 MessageBox.Show("File not Loaded");
             }
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Home hm = new Home(id);
+
+            this.Visible = false;
+
+            hm.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            pictureBox3.Visible = false;
+            pictureBox2.Visible = true;
         }
     }
 }

@@ -44,7 +44,7 @@
             this.label11.BackColor = System.Drawing.Color.Black;
             this.label11.Font = new System.Drawing.Font("Microsoft Himalaya", 45F);
             this.label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label11.Location = new System.Drawing.Point(134, 413);
+            this.label11.Location = new System.Drawing.Point(137, 453);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(170, 60);
@@ -59,10 +59,10 @@
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.button4.ForeColor = System.Drawing.Color.Transparent;
-            this.button4.Location = new System.Drawing.Point(187, 356);
+            this.button4.Location = new System.Drawing.Point(166, 374);
             this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(63, 55);
+            this.button4.Size = new System.Drawing.Size(116, 77);
             this.button4.TabIndex = 86;
             this.button4.UseVisualStyleBackColor = false;
             // 
@@ -99,15 +99,17 @@
             this.button1.Size = new System.Drawing.Size(63, 55);
             this.button1.TabIndex = 83;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // WelcomeLabel
             // 
+            this.WelcomeLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.WelcomeLabel.Font = new System.Drawing.Font("Microsoft Himalaya", 45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.WelcomeLabel.Location = new System.Drawing.Point(12, 9);
             this.WelcomeLabel.Name = "WelcomeLabel";
             this.WelcomeLabel.Size = new System.Drawing.Size(976, 51);
             this.WelcomeLabel.TabIndex = 82;
-            this.WelcomeLabel.Text = "Print";
+            this.WelcomeLabel.Text = "Scan";
             this.WelcomeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button2
@@ -117,7 +119,7 @@
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Location = new System.Drawing.Point(782, 73);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 63);
+            this.button2.Size = new System.Drawing.Size(100, 105);
             this.button2.TabIndex = 81;
             this.button2.UseVisualStyleBackColor = false;
             // 
@@ -128,7 +130,7 @@
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Location = new System.Drawing.Point(888, 73);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 65);
+            this.button3.Size = new System.Drawing.Size(100, 105);
             this.button3.TabIndex = 80;
             this.button3.UseVisualStyleBackColor = false;
             // 

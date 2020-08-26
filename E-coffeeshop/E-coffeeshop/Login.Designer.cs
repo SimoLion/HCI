@@ -42,6 +42,7 @@
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
             this.button4 = new System.Windows.Forms.Button();
+            this.toolTip3 = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // label1
@@ -130,10 +131,10 @@
             // 
             this.button3.BackgroundImage = global::E_coffeeshop.Properties.Resources.depositphotos_55474189_stock_photo_question_mark_character_with_hello;
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Help;
             this.button3.Location = new System.Drawing.Point(857, 8);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 65);
+            this.button3.Size = new System.Drawing.Size(100, 80);
             this.button3.TabIndex = 10;
             this.toolTip1.SetToolTip(this.button3, "Do you have any queshtion?");
             this.button3.UseVisualStyleBackColor = false;
@@ -145,21 +146,21 @@
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Location = new System.Drawing.Point(751, 8);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 63);
+            this.button2.Size = new System.Drawing.Size(100, 80);
             this.button2.TabIndex = 11;
-            this.toolTip2.SetToolTip(this.button2, "Read the manual before use this software.");
+            this.toolTip2.SetToolTip(this.button2, "Read the manual before use this software");
             this.button2.UseVisualStyleBackColor = false;
             // 
             // button4
             // 
             this.button4.BackgroundImage = global::E_coffeeshop.Properties.Resources._lock;
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Default;
             this.button4.Location = new System.Drawing.Point(801, 362);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(156, 82);
             this.button4.TabIndex = 12;
-            this.toolTip2.SetToolTip(this.button4, "Read the manual before use this software.");
+            this.toolTip3.SetToolTip(this.button4, "Read manual to sign in");
             this.button4.UseVisualStyleBackColor = false;
             // 
             // Login
@@ -206,6 +207,7 @@
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.ToolTip toolTip2;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.ToolTip toolTip3;
     }
 }
 

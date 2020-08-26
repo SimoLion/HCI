@@ -116,7 +116,9 @@ namespace E_coffeeshop
         private void button1_Click(object sender, EventArgs e)
         {
             Home hm = new Home(id);
+
             this.Visible = false;
+
             hm.Show();
         }
     }

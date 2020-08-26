@@ -1,16 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.IO;    // read dada 
-using System.Diagnostics;
 using System.Data.OleDb;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolBar;
+using System.Windows.Forms;
 
 namespace E_coffeeshop
 {
@@ -26,6 +16,7 @@ namespace E_coffeeshop
             InitializeComponent();
             this.id = userid;
         }
+
 
 
         private void Login_Load(object sender, EventArgs e)
@@ -50,6 +41,8 @@ namespace E_coffeeshop
 
         private void Home_Load(object sender, EventArgs e)
         {
+            button3.Visible = false;
+
             try
             {
 
@@ -66,7 +59,7 @@ namespace E_coffeeshop
                 OleDbCommand command2 = new OleDbCommand(query2, connection);
                 string Lname = (command2.ExecuteScalar()).ToString();
 
-                label1.Text = "" + Fname + "   " + Lname;
+                label1.Text = "" + Fname + "";
 
                 connection.Close();
 
@@ -84,7 +77,6 @@ namespace E_coffeeshop
             else
             {
                 button2.Visible = false;
-                button11.Visible = false;
                 label11.Visible = false;
             }
         }
@@ -109,7 +101,7 @@ namespace E_coffeeshop
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Cafe cf = new Cafe();
+            Cafe cf = new Cafe(id);
 
             this.Visible = false;
 
@@ -118,7 +110,7 @@ namespace E_coffeeshop
 
         private void label3_Click(object sender, EventArgs e)
         {
-            Cafe cf = new Cafe();
+            Cafe cf = new Cafe(id);
 
             this.Visible = false;
 
@@ -127,7 +119,7 @@ namespace E_coffeeshop
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Card cr = new Card();
+            Card cr = new Card(id);
 
             this.Visible = false;
 
@@ -136,7 +128,7 @@ namespace E_coffeeshop
 
         private void label4_Click(object sender, EventArgs e)
         {
-            Card cr = new Card();
+            Card cr = new Card(id);
 
             this.Visible = false;
 
@@ -155,7 +147,7 @@ namespace E_coffeeshop
 
         private void button10_Click(object sender, EventArgs e)
         {
-            Print pr = new Print();
+            Print pr = new Print(id);
 
             this.Visible = false;
 
@@ -164,7 +156,7 @@ namespace E_coffeeshop
 
         private void button9_Click(object sender, EventArgs e)
         {
-            Scan sc = new Scan();
+            Scan sc = new Scan(id);
 
             this.Visible = false;
 
@@ -173,7 +165,7 @@ namespace E_coffeeshop
 
         private void label9_Click(object sender, EventArgs e)
         {
-            Print pr = new Print();
+            Print pr = new Print(id);
 
             this.Visible = false;
 
@@ -182,7 +174,7 @@ namespace E_coffeeshop
 
         private void label8_Click(object sender, EventArgs e)
         {
-            Scan sc = new Scan();
+            Scan sc = new Scan(id);
 
             this.Visible = false;
 
@@ -191,7 +183,7 @@ namespace E_coffeeshop
 
         private void label7_Click(object sender, EventArgs e)
         {
-            Bookbindink bd = new Bookbindink();
+            Bookbindink bd = new Bookbindink(id);
 
             this.Visible = false;
 
@@ -200,7 +192,7 @@ namespace E_coffeeshop
 
         private void button8_Click(object sender, EventArgs e)
         {
-            Bookbindink bd = new Bookbindink();
+            Bookbindink bd = new Bookbindink(id);
 
             this.Visible = false;
 
@@ -209,7 +201,7 @@ namespace E_coffeeshop
 
         private void label5_Click(object sender, EventArgs e)
         {
-            Basket bk = new Basket();
+            Basket bk = new Basket(id);
 
             this.Visible = false;
 
@@ -218,7 +210,7 @@ namespace E_coffeeshop
 
         private void button7_Click(object sender, EventArgs e)
         {
-            Basket bk = new Basket();
+            Basket bk = new Basket(id);
 
             this.Visible = false;
 
@@ -227,22 +219,28 @@ namespace E_coffeeshop
 
         private void label11_Click(object sender, EventArgs e)
         {
-            ControlRoom cr = new ControlRoom();
+            ControlRoom cr = new ControlRoom(id);
 
             this.Visible = false;
 
             cr.Show();
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+
+        {
+            this.BackgroundImage = Properties.Resources.home;
+            button11.Visible = true;
+            button3.Visible = false;
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
-            ControlRoom cr = new ControlRoom();
-
-            this.Visible = false;
-
-            cr.Show();
+            this.BackgroundImage = Properties.Resources.homeBlack;
+            button3.Visible = true;
+            button11.Visible = false;
         }
     }
-    
+
 }

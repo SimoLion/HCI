@@ -12,9 +12,21 @@ namespace E_coffeeshop
 {
     public partial class Bookbindink : Form
     {
-        public Bookbindink()
+        private int id;
+
+        public Bookbindink(int userid)
         {
             InitializeComponent();
+            this.id = userid;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Home hm = new Home(id);
+
+            this.Visible = false;
+
+            hm.Show();
         }
     }
 }

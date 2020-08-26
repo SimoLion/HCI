@@ -12,10 +12,12 @@ namespace E_coffeeshop
 {
     public partial class Cafe : Form
     {
+        private int id;
 
-        public Cafe()
+        public Cafe(int userid)
         {
             InitializeComponent();
+            this.id = userid;
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -34,6 +36,15 @@ namespace E_coffeeshop
         {
 
 
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Home hm = new Home(id);
+
+            this.Visible = false;
+
+            hm.Show();
         }
     }
 }
