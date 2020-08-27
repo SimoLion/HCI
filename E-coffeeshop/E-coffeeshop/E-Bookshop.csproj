@@ -277,6 +277,15 @@
     <None Include="bin\Debug\homeBlack.jpg" />
     <None Include="bin\Debug\printerStop.jpg" />
     <None Include="bin\Debug\printerStop..jpg" />
+    <None Include="bin\Debug\doxie_go_scanner.gif" />
+    <None Include="bin\Debug\doxie_go_startscanner.jpg" />
+    <None Include="bin\Debug\bookbinding.gif" />
+    <None Include="bin\Debug\Needle_Pin.jpg" />
+    <None Include="bin\Debug\bookbindingstart.jpg" />
+    <None Include="bin\Debug\dollar.jpg" />
+    <None Include="bin\Debug\plusIcon.jpg" />
+    <None Include="bin\Debug\coffee1.jpg" />
+    <None Include="bin\Debug\coffee2.jpg" />
     <Content Include="Database.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

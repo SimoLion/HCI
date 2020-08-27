@@ -42,6 +42,11 @@ namespace E_coffeeshop
         private void Home_Load(object sender, EventArgs e)
         {
             button3.Visible = false;
+            pictureBox3.Visible = false;
+            pictureBox4.Visible = false;
+            pictureBox5.Visible = false;
+            pictureBox6.Visible = false;
+
 
             try
             {
@@ -77,7 +82,16 @@ namespace E_coffeeshop
             else
             {
                 button2.Visible = false;
-                label11.Visible = false;
+
+                button3.Visible = false;
+                button11.Visible = false;
+                button15.Visible = false;
+                button16.Visible = false;
+                groupBox1.Visible = false;
+                radioButton1.Visible = false;
+                radioButton2.Visible = false;
+                radioButton3.Visible = false;
+                radioButton4.Visible = false;
             }
         }
 
@@ -240,6 +254,41 @@ namespace E_coffeeshop
             this.BackgroundImage = Properties.Resources.homeBlack;
             button3.Visible = true;
             button11.Visible = false;
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("The A/C is Open!");
+
+            if (radioButton1.Checked)
+            {
+                pictureBox4.Hide();
+                pictureBox3.Show();
+            }
+            if (radioButton2.Checked)
+            {
+                pictureBox3.Hide();
+                pictureBox4.Show();
+            }
+            if (radioButton3.Checked)
+            {
+                pictureBox6.Hide();
+                pictureBox5.Show();
+            }
+            if (radioButton4.Checked)
+            {
+                pictureBox5.Hide();
+                pictureBox6.Show();
+            }
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("The A/C is Closed!");
+            pictureBox3.Visible = false;
+            pictureBox4.Visible = false;
+            pictureBox5.Visible = false;
+            pictureBox6.Visible = false;
         }
     }
 

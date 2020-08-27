@@ -18,6 +18,7 @@ namespace E_coffeeshop
         {
             InitializeComponent();
             this.id = userid;
+            pictureBox1.Visible = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -27,6 +28,12 @@ namespace E_coffeeshop
             this.Visible = false;
 
             hm.Show();
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            pictureBox2.Visible = false;
+            pictureBox1.Visible = true;
         }
     }
 }

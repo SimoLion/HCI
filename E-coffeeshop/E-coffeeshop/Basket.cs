@@ -28,5 +28,10 @@ namespace E_coffeeshop
 
             hm.Show();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Your pay confirmed");
+        }
     }
 }
